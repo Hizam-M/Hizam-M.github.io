@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
@@ -441,7 +441,6 @@ margin-right: 10px;
 
 .lightimage img{
   width: 100%;
-  border: solid;
   z-index: -5;
   position: absolute;
   
@@ -449,10 +448,11 @@ margin-right: 10px;
 
 .cover {
   width: 100%;
-  height: 100%;
+  height: 30vw;
   background-color: white;
   position: absolute;
   opacity: .93;
+
 }
 
 #us2title {
@@ -1165,10 +1165,7 @@ a {
     text-decoration: none;
 }
   
-  .header{
-    border-bottom: 1vw solid #E8FFED;
-}
-  .grid{
+ .grid{
     display: none;
   }
 
@@ -1324,6 +1321,7 @@ a {
   background-color: #f4f4f4;
   width: 100%;
   height: 100vw;
+  
 }
 
 
@@ -1333,7 +1331,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  top: 7vw;
+  top: 2vw;
     
 }
 
@@ -1344,7 +1342,7 @@ a {
   letter-spacing: .2em;
   font-weight: bold;
   opacity: .8;
-  font-size: 1vw;
+  font-size: 2vw;
   margin-bottom: 1vw;
 }
 
@@ -1352,19 +1350,20 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-top: 0;
 }
 
 
 .cards {
-  width: 60%;
+  width: 80%;
   height: auto;
   margin: auto;
   display:flex;
   flex-direction: column;
-  margin-top: 18vw;
-}
+  margin-top: 13vw;
+
+  }
 
 /*for query move columns from cards class*/
 
@@ -1380,7 +1379,7 @@ a {
   position: absolute;
   opacity: 0.3;
   grid-area: 1 / 1 / 3 / 5;
-  margin-left: 15vw;
+  margin-left: 45vw;
   margin-top: 0vw;
   width: 20vw;
 }
@@ -1388,9 +1387,9 @@ a {
 .card h2{
   grid-area: 2 / 1 / 3 / 3;
   margin-left: 3vw;
-  margin-top: 0vw;
+  margin-top: -1vw;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   height: 3vw;  
   letter-spacing: .05em;  
  }
@@ -1399,8 +1398,8 @@ a {
   position: absolute;
   grid-area: 1 / 2 / 2 / 3;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 3vw;
-  margin-left: 45vw;
+  font-size: 4vw;
+  margin-left: 68vw;
   color: gray;
   opacity: .5;
   margin-top: 3vw;
@@ -1414,7 +1413,7 @@ a {
   margin-left: 3vw;
   margin-top: -1vw;
   font-family: 'raleway', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   height: 2vw;  
   letter-spacing: .05em;  
   color: #4E7C58;
@@ -1423,10 +1422,10 @@ a {
 
 .card p{
   grid-area: 4 / 1 / 5 / 2;
-  margin-top: -2.vw;
+  margin-top: -2vw;
   margin-left: 3vw;
   font-family: 'raleway', sans-serif;
-  font-size: .8vw;
+  font-size: 1.8vw;
   
 }
 
@@ -1435,9 +1434,9 @@ a {
 .card h6{
   grid-area: 6 / 1 / 6 / 2;
   margin-left: 3vw;
-  margin-top: -4vw;
+  margin-top: -3vw;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: .7vw;
+  font-size: 1.7vw;
   height: 2vw;  
   letter-spacing: .02em; 
 }
@@ -1464,14 +1463,14 @@ a {
   display: flex;
   flex-direction: column;
   margin-left: 25vw;
-  margin-top: 5vw;
+  margin-top: 1vw;
 }
 
 #top-text p{
   color: #4E7C58;
   font-family: 'raleway', sans-serif;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   letter-spacing: .3em;
 }
 
@@ -1479,7 +1478,7 @@ a {
   color: #000000;
   font-family: 'source sans pro', sans-serif;
   font-weight: bold;
-  font-size: 2.9vw;
+  font-size: 3.9vw;
   margin-top: 0em;
 }
 
@@ -1490,10 +1489,10 @@ a {
 
 
 .container {
-  width: 45vw;
+  width: 60vw;
   position: absolute;
-  left: 25vw;
-  top: 35%;
+  left: 20vw;
+  top: 30%;
   background-color: #ffffff;
 }
 
@@ -1509,7 +1508,7 @@ a {
   cursor: pointer;
   font-weight: 600;
   font-family: 'raleway', sans serif;
-  font-size: 1.25vw;
+  font-size: 2.25vw;
 
 }
 .tab-content {
@@ -1523,7 +1522,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.4px;
   color: #202238;
-  font-size: .7vw;
+  font-size: 1.5vw;
   font-family: 'raleway', sans serif;
 }
 .tab-content div {
@@ -1535,7 +1534,7 @@ a {
 .tabs .active {
   background-color: #f1f1f1;
   color: #4E7C58;
-  border-top: .2vw solid#4E7C58;
+  border-top: .2vw solid #4E7C58;
 }
 
 #us-bg {
@@ -1561,8 +1560,8 @@ a {
 
 .cover {
   width: 100%;
-  height: 100%;
-  top: 35vw;
+  height: 50vw;
+  top: 0vw;
   background-color: white;
   position: absolute;
   opacity: .93;
@@ -1575,7 +1574,7 @@ a {
   align-items: center;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: -10vw;
+  margin-top: -2vw;
     width: 100%;
 
 }
@@ -1583,7 +1582,7 @@ a {
   color: #4E7C58;
   font-family: 'raleway', sans-serif;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   letter-spacing: .3em;
 }
 
@@ -1591,21 +1590,21 @@ a {
   color: #000000;
   font-family: 'source sans pro', sans-serif;
   font-weight: bold;
-  font-size: 2.9vw;
-  margin-top: -.3vw;
+  font-size: 3.9vw;
+  margin-top: -2vw;
   word-spacing: .2em;
 }
 
 #subscribe {
   position: absolute;
-  width: 35%;
+  width: 50%;
   margin-left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #4E7C58;
-  margin-top: 0vw;
+  margin-top: 9vw;
   height: auto;
 
 }
@@ -1615,25 +1614,25 @@ a {
 }
 
 .sub-form input {
-  width: 20vw;
+  width: 40vw;
   height: 2.5vw;
   border-radius: .25vw;
   border: none;
   font-family: 'raleway', sans-serif;
-  font-size: .5vw;
-  margin-left: 6.5vw;
+  font-size: 1.5vw;
+  margin-left: 4vw;
   margin-bottom: 1vw;
   text-align: center;
 }
 
 .sub-form button {
-  width: 20vw;
+  width: 35vw;
   height: 3vw;
   border-radius: .25vw;
   border: none;
   font-family: 'raleway', sans-serif;
   font-size: .6vw;
-  margin-left:7vw;
+  margin-left:6.5vw;
   background-color: black;
   color: white;
   letter-spacing: .1em;
@@ -1650,7 +1649,7 @@ a {
   width:100%;
   text-align:center;
   transform: translateX(-50%);
-  margin-top: 23vw;
+  margin-top: 25vw;
 }
 
 #call p{
@@ -1658,7 +1657,7 @@ a {
   height: auto;
   margin-bottom: 0em;
   font-family: 'raleway', sans-serif;
-  font-size: .75vw;
+  font-size: 1.75vw;
   color: gray;
 
 }
@@ -1667,7 +1666,7 @@ a {
   width: 100%;
   height: auto;
   font-family: 'raleway', sans-serif;
-  font-size: .75vw;
+  font-size: 1.75vw;
   text-align: center;
   color: gray;
   margin-top: .9vw;
@@ -1711,10 +1710,9 @@ a {
   letter-spacing: .2em;
   font-weight: bold;
   opacity: .8;
-  font-size: 1vw;
   margin-bottom: 1vw;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   letter-spacing: .3em;
 }
 
@@ -1722,7 +1720,7 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-top: 0;
 }
 
@@ -1739,7 +1737,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2vw;
   background-color: white;
-  
+  height: 100vw;
 }
 
 .card3 {
@@ -1747,29 +1745,30 @@ a {
   grid-template-rows: 15% 10% 0%;
   grid-template-columns:100%;
   background: #ffffff;
-  height: 33vw;
+  height: 40vw;
+  margin-top: 4vw;
 }
 
 .card3 img{
   grid-area: 1 / 1 / 2 / 2;
   margin-left:0em;
-  margin-top: 0em;
   margin-bottom: 0em;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.75;
 }
   
   .card3 img:hover{
-    opacity: .9;
+    opacity: .2;
   }
 
 #cardlink{
    position: absolute;
 }
 .card3 h4{
-  margin-top: 26vw;
+  z-index: 100;
+  margin-top: 25vw;
   text-transform: capitalize;
-  font-size: 2vw;
+  font-size: 3vw;
   height: 1.5vw;
   grid-area: 2 / 1 / 3 / 2;
   margin-left: 1.5vw;
@@ -1782,7 +1781,7 @@ a {
   margin-left: 1.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   color: dark-gray;
-  font-size: 1.75vw;
+  font-size: 2.75vw;
   width: 2vw;
   height: 1vw;
   margin-bottom: 0vw;
@@ -1794,21 +1793,21 @@ a {
   position: absolute;
   grid-area: 2 / 1 / 3 / 2;
   text-align: right;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #4F7B59; 
   text-decoration: none;
   margin-top: 5vw;
-  margin-left: 20vw;
+  margin-left: 18vw;
   font-family: 'Source Sans Pro', sans-serif;
 }
   
 .small {
   grid-area: 2 / 1 / 3 / 2;
-  margin-top: 28.5vw;
-  margin-left: 4.5vw;
+  margin-top: 29vw;
+  margin-left: 6vw;
   text-decoration: line-through;
   opacity: .7;
-  font-size: .8vw;
+  font-size: 1.8vw;
   width: 2vw;
   height: 1.5vw;
 }
@@ -1819,11 +1818,11 @@ a {
   color: #fbfbfb;
   font-family: 'raleway', sans-serif;
   margin-left: 1vw;
-  width: 3vw;
+  width: 5vw;
   height: auto;
   text-align: center;
   border-radius: .3vw;
-  font-size: 1vw;
+  font-size:2vw;
   letter-spacing: .02em;
 
 }
@@ -1863,9 +1862,10 @@ a {
   border-radius: 50%;
   position: absolute;
   top: 25vw;
+  font-size: 2.5vw;
   left: 40vw;
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   cursor: pointer;
   color: green;
 }
@@ -1876,7 +1876,7 @@ a {
   left: 50vw;
   color: #fbfbfb;
   font-family: 'Raleway', sans-serif;
-  font-size: .8vw;
+  font-size: 1.8vw;
   letter-spacing: .3em;
   font-weight: bold;
 }
@@ -1890,35 +1890,36 @@ a {
 }
 
 #quote p{
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: italic;
   font-weight: 700;
   color: gray;
-  width: 25vw;
+  width: 50vw;
   text-align: center;
-  margin-top: -4vw;
+    margin-left: 20vw;
+  margin-top: -3vw;
   word-spacing: .2em;
-  line-height: 1.5vw;
+  line-height: 3vw;
 }
 
 #quote .one {
   filter: invert(1);
-  width: 10vw;
-  height:8vw;
-  margin-top: -10vw;
-  margin-left: -40vw;
+  width: 20vw;
+  height:16vw;
+  margin-top: -18vw;
+  margin-left: -60vw;
 }
 
 #quote h2{
-  font-size: 2vw;
+  font-size: 3vw;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 200;
   color: black;
   width: 20vw;
   text-align: center;
   margin-top: -3vw;
-  margin-left: -40vw;
+  margin-left: -60vw;
 
 }
 
@@ -1979,7 +1980,7 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 4vw;
+  font-size: 5vw;
   margin-top: -1.3vw;
     z-index:2;
     margin-top: -.5vw;
@@ -1991,8 +1992,8 @@ a {
   margin-top: -.5vw;
   font-weight: bold;
   left: 25vw;
-  font-size: 1.5vw;
-  width: 35vw;
+  font-size: 2.5vw;
+  width: 60vw;
   letter-spacing: 1px;
   color: gray;
       z-index:2;
@@ -2004,7 +2005,7 @@ a {
   margin-top: -.5vw;
   font-weight: bold;
   left: 25vw;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   width: 100%;
   letter-spacing: 1px;
   color: gray;
@@ -2033,7 +2034,7 @@ h6 a {
   display: flex;
   flex-direction: column;
   width: 40vw;
-  height: 55vw;
+  height: auto;
   justify-content: space-between;
   margin-top: 0vw;
   z-index:2;
@@ -2045,8 +2046,8 @@ h6 a {
   display: flex;
   flex-direction: column;
   background-color: #fbfbfb;
-  width: 40vw;
-  height: 23vw;
+  width: 65vw;
+  height: auto;
   }
 
 .date {
@@ -2058,7 +2059,7 @@ h6 a {
   font-family: 'Source Sans Pro', sans-serif;
   justify-content: space-evenly;
   width: 50%;
-  font-size: .8vw;
+  font-size: 1.8vw;
   margin-left: 1vw;
   margin-top: 1vw;
   font-weight: bold;
@@ -2079,7 +2080,7 @@ h6 a {
   text-transform: capitalize;
   margin-left: 1.5vw;
   margin-top: 0vw;
-  font-size: 1.75vw;
+  font-size: 2.75vw;
 }
 
 .articlename a {
@@ -2096,12 +2097,12 @@ h6 a {
   font-family: 'Raleway', sans-serif;
   margin-left: 1.5vw;
   margin-top: -1vw;
-  font-size: 1vw;
+  font-size: 2vw;
   line-height: 1.5em;
 }
 
 #weight-loss-article img {
-  width: 11%;
+  width: 15%;
   border-radius: 50%;
   margin-left: 2vw;
   margin-top: 1vw;
@@ -2109,7 +2110,7 @@ h6 a {
 }
 
 #fitness img {
-  width: 11%;
+  width: 15%;
   margin-left: 2vw;
   border-radius: 50%;
   margin-top: 1vw;
@@ -2118,9 +2119,9 @@ h6 a {
 
 .author {
   font-family: 'Raleway', sans-serif;
-  margin-left: 7vw;
+  margin-left: 9vw;
   margin-top: -2.5vw;
-  font-size: 1vw;
+  font-size: 2vw;
   line-height: 1.5em;
   font-weight: bold;
 }
@@ -2156,7 +2157,7 @@ h6 a {
 }
 
 .foot-cards h4{
-  font-size: 2vw;
+  font-size: 3vw;
   margin-top: 0vw;
   text-transform: uppercase;
   color: #4E7C58;
@@ -2164,7 +2165,7 @@ h6 a {
 }
 
 #title-CR p{
-  font-size: .8vw;
+  font-size: 1.8vw;
   margin-top: 0vw;
   text-transform: uppercase;
   color: #707070;
@@ -2172,40 +2173,6 @@ h6 a {
   line-height: 2em;
 }
 
-.foot-cards h5{ 
-  font-size: 1.25vw;
-  margin-top: 0vw;
-  text-transform: capitalize;
-  word-spacing:.1em;
-  line-height: 2em;
-  margin-bottom: 1vw;
-
-}
-
-.foot-cards p{ 
-  font-size: 1vw;
-  margin-top: 0vw;
-  text-transform: capitalize;
-  word-spacing:.1em;
-  line-height: 2em;
-}
-
-.foot-cards a{
-  text-decoration: none;
-  color: #707070;
-} 
-
-.foot-cards a:hover {
-  color: #4E7C58;
-}
-
-#cont-info p{
-  margin-top: -0.5vw;
-}
-
-#cont-info h5{
-  margin-bottom: 2vw;
-}
 
   #help{
     display: none;
@@ -2219,7 +2186,7 @@ footer {
   width:100%;
   background-color: #4e7c58;
   font-family: 'Raleway', sans-serif;
-  font-size: 1vw;
+  font-size: 2vw;
   }
 
 footer > ul {
@@ -2264,7 +2231,7 @@ footer > ul li a {
 
 
 
-@media (min-width: 601px) {
+@media (min-width: 600px) {
   .fruit-for-top600{
     display: none;
   }
@@ -2272,10 +2239,19 @@ footer > ul li a {
 
 
 
+
 @media (max-width: 600px) {
+  html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+  
   html {
     background-color: white;
-    width: viewport;
   }
   
    .nav-bar, #search-bar{
@@ -2297,7 +2273,7 @@ footer > ul li a {
   }  
   
   .header {
-    width: 100%;
+    width: 100vw;
     z-index: 999;
         position:fixed;
 
@@ -2318,9 +2294,7 @@ a {
     text-decoration: none;
 }
   
-  .header{
-    border-bottom: 1vw solid #E8FFED;
-}
+
   .grid{
     display: none;
   }
@@ -2486,13 +2460,14 @@ a {
   margin-top: 85vh;
   height: auto;
   background-color: #f4f4f4;
+  overflow-Y: hidden;
 }
 
 .bgsecond {
   background-color: #f4f4f4;
-  width:100%;
+  width:100vw;
   left: 0vw;
-  height: auto;
+  height: 115vw;
 }
 
 
@@ -2501,7 +2476,7 @@ a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 100vw;
   top: 4vh;
     
 }
@@ -2521,13 +2496,13 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 5vw;
+  font-size: 4.8vw;
   margin-top: 0;
 }
 
 
 .cards {
-  width: 90%;
+  width: 90vw;
   height: auto;
   margin: auto;
   display:flex;
@@ -2574,7 +2549,7 @@ a {
   opacity: .5;
   margin-top: 0.5vh;
   height: 3vw;
-  width: 100%;
+  width: 4vw;
   
 }
 
@@ -2624,7 +2599,7 @@ a {
   #about-us {
   width: 100%;
   position: absolute;
-  margin-top: 155vw;
+  margin-top: 165vh;
   height: auto;
   background-color: #ffffff;
 }
@@ -2632,15 +2607,15 @@ a {
 #top-text {
   display: flex;
   flex-direction: column;
-  margin-left: 25vw;
-  margin-top: 5vw;
+  margin-left: 20vw;
+  margin-top: 2vh;
 }
 
 #top-text p{
   color: #4E7C58;
   font-family: 'raleway', sans-serif;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   letter-spacing: .3em;
 }
 
@@ -2648,7 +2623,7 @@ a {
   color: #000000;
   font-family: 'source sans pro', sans-serif;
   font-weight: bold;
-  font-size: 2.9vw;
+  font-size: 3.9vw;
   margin-top: 0em;
 }
 
@@ -2659,10 +2634,11 @@ a {
 
 
 .container {
-  width: 45vw;
+  width: 85vw;
+  height: auto;
   position: absolute;
-  left: 25vw;
-  top: 35%;
+  left: 5vw;
+  top: 10vh;
   background-color: #ffffff;
 }
 
@@ -2678,13 +2654,12 @@ a {
   cursor: pointer;
   font-weight: 600;
   font-family: 'raleway', sans serif;
-  font-size: 1.25vw;
+  font-size: 2.25vw;
 
 }
 .tab-content {
   background-color: #f1f1f1;
   padding: 2% 10%;
-  overflow-Y: hidden;
 }
 
 .tab-content p {
@@ -2692,7 +2667,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.4px;
   color: #202238;
-  font-size: .7vw;
+  font-size: 1.7vw;
   font-family: 'raleway', sans serif;
 }
 .tab-content div {
@@ -2704,7 +2679,7 @@ a {
 .tabs .active {
   background-color: #f1f1f1;
   color: #4E7C58;
-  border-top: .2vw solid#4E7C58;
+  border-top: .2vw solid #4E7C58;
 }
 
 #us-bg {
@@ -2717,6 +2692,7 @@ a {
   position: absolute;
   width: 100%;
   height: auto;  
+  top: 26vh;
 }
 
 
@@ -2730,8 +2706,8 @@ a {
 
 .cover {
   width: 100%;
-  height: 100%;
-  top: 35vw;
+  height: 30vh;
+  top: -2vh;
   background-color: white;
   position: absolute;
   opacity: .93;
@@ -2744,7 +2720,7 @@ a {
   align-items: center;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: -10vw;
+  margin-top: -1vh;
     width: 100%;
 
 }
@@ -2752,7 +2728,7 @@ a {
   color: #4E7C58;
   font-family: 'raleway', sans-serif;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 2.2vw;
   letter-spacing: .3em;
 }
 
@@ -2760,21 +2736,21 @@ a {
   color: #000000;
   font-family: 'source sans pro', sans-serif;
   font-weight: bold;
-  font-size: 2.9vw;
+  font-size: 3.9vw;
   margin-top: -.3vw;
   word-spacing: .2em;
 }
 
 #subscribe {
   position: absolute;
-  width: 35%;
+  width: 50%;
   margin-left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #4E7C58;
-  margin-top: 0vw;
+  margin-top: 6vh;
   height: auto;
 
 }
@@ -2784,25 +2760,25 @@ a {
 }
 
 .sub-form input {
-  width: 20vw;
-  height: 2.5vw;
+  width: 30vw;
+  height: 2vh;
   border-radius: .25vw;
   border: none;
   font-family: 'raleway', sans-serif;
-  font-size: .5vw;
-  margin-left: 6.5vw;
+  font-size: 2vw;
+  margin-left: 8vw;
   margin-bottom: 1vw;
   text-align: center;
 }
 
 .sub-form button {
-  width: 20vw;
-  height: 3vw;
+  width: 30vw;
+  height: 2.5vh;
   border-radius: .25vw;
   border: none;
   font-family: 'raleway', sans-serif;
-  font-size: .6vw;
-  margin-left:7vw;
+  font-size: 1.6vw;
+  margin-left:8.2vw;
   background-color: black;
   color: white;
   letter-spacing: .1em;
@@ -2819,7 +2795,7 @@ a {
   width:100%;
   text-align:center;
   transform: translateX(-50%);
-  margin-top: 23vw;
+  margin-top: 20vh;
 }
 
 #call p{
@@ -2827,7 +2803,7 @@ a {
   height: auto;
   margin-bottom: 0em;
   font-family: 'raleway', sans-serif;
-  font-size: .75vw;
+  font-size: 1.75vw;
   color: gray;
 
 }
@@ -2836,10 +2812,10 @@ a {
   width: 100%;
   height: auto;
   font-family: 'raleway', sans-serif;
-  font-size: .75vw;
+  font-size: 1.75vw;
   text-align: center;
   color: gray;
-  margin-top: .9vw;
+  margin-top: .9vh;
 
 }
 
@@ -2852,7 +2828,7 @@ a {
 #recipe-book {
   width: 100%;
   position: absolute;
-  margin-top:230vw;
+  top: 90vh;
   height: auto;
   background-color: #ffffff;
 }
@@ -2860,7 +2836,7 @@ a {
 .bgfourth {
   background-color: #ffffff;
   width: 100%;
-  height: 42vw;
+  height: 55vh;
 }
 
 
@@ -2870,7 +2846,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  top: 1vw;
+  top: 1vh;
 }
 
 #recipe-text p{
@@ -2880,10 +2856,9 @@ a {
   letter-spacing: .2em;
   font-weight: bold;
   opacity: .8;
-  font-size: 1vw;
+  font-size: 2vw;
   margin-bottom: 1vw;
   font-weight: bold;
-  font-size: 1.2vw;
   letter-spacing: .3em;
 }
 
@@ -2891,7 +2866,7 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   margin-top: 0;
 }
 
@@ -2900,10 +2875,10 @@ a {
   }
 
 .cards3 {
-  width: 75%;
+  width: 85%;
   margin: auto;
   display:grid;
-  margin-top: 11vw;
+  margin-top: 11vh;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2vw;
@@ -2916,13 +2891,12 @@ a {
   grid-template-rows: 15% 10% 0%;
   grid-template-columns:100%;
   background: #ffffff;
-  height: 33vw;
+  height: 26vh;
 }
 
 .card3 img{
   grid-area: 1 / 1 / 2 / 2;
-  margin-left:0em;
-  margin-top: 0em;
+  margin-left:0vh;
   margin-bottom: 0em;
   width: 100%;
   opacity: 0.2;
@@ -2936,10 +2910,10 @@ a {
    position: absolute;
 }
 .card3 h4{
-  margin-top: 26vw;
+  margin-top: 15vh;
   text-transform: capitalize;
-  font-size: 2vw;
-  height: 1.5vw;
+  font-size: 3vw;
+  height: 1.5vh;
   grid-area: 2 / 1 / 3 / 2;
   margin-left: 1.5vw;
   font-family: 'Raleway', sans-serif;
@@ -2947,14 +2921,14 @@ a {
 
 .card3 #firstspan {
   grid-area: 2 / 1 / 3 / 2;
-  margin-top: 28vw;
+  margin-top: 18vh;
   margin-left: 1.5vw;
   font-family: 'Source Sans Pro', sans-serif;
   color: dark-gray;
-  font-size: 1.75vw;
+  font-size: 2.75vw;
   width: 2vw;
-  height: 1vw;
-  margin-bottom: 0vw;
+  height: 1vh;
+  margin-bottom: 0vh;
 
 }
 
@@ -2963,23 +2937,23 @@ a {
   position: absolute;
   grid-area: 2 / 1 / 3 / 2;
   text-align: right;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #4F7B59; 
   text-decoration: none;
-  margin-top: 5vw;
+  margin-top: 3vh;
   margin-left: 20vw;
   font-family: 'Source Sans Pro', sans-serif;
 }
   
 .small {
   grid-area: 2 / 1 / 3 / 2;
-  margin-top: 28.5vw;
-  margin-left: 4.5vw;
+  margin-top: 19vh;
+  margin-left: 6vw;
   text-decoration: line-through;
   opacity: .7;
-  font-size: .8vw;
+  font-size: 1.8vw;
   width: 2vw;
-  height: 1.5vw;
+  height: 1.5vh;
 }
 
 .card3 p{
@@ -2988,132 +2962,30 @@ a {
   color: #fbfbfb;
   font-family: 'raleway', sans-serif;
   margin-left: 1vw;
-  width: 3vw;
+  width: 6vw;
   height: auto;
   text-align: center;
   border-radius: .3vw;
-  font-size: 1vw;
+  font-size: 2vw;
   letter-spacing: .02em;
 
 }
   
   
 #promo {
-  position: absolute;
-  margin-top: 350vw;
-  width: 100%;
-  height: auto;
-  
-  
-}
-
-#promobg {
-  background-color: white;
-  height:60vw;
-  position:absolute;
-}
-
-#vid-quote {
-  width:100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.vid  img{
-  height: auto;
-  width:100%;
-}
-
-.vid button {
-  background-color: white;
-  border: .5vw solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  position: absolute;
-  top: 25vw;
-  left: 40vw;
-  width: 5vw;
-  height: 5vw;
-  cursor: pointer;
-  color: green;
-}
-
-.vid p{
-  position: absolute;
-  top:26vw;
-  left: 50vw;
-  color: #fbfbfb;
-  font-family: 'Raleway', sans-serif;
-  font-size: .8vw;
-  letter-spacing: .3em;
-  font-weight: bold;
-}
-
-#quote {
-  display: flex;
-  align-items: center;
-  margin-top: 5vw;
-  margin-left: 11vw;
-
-}
-
-#quote p{
-  font-size: 2vw;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  color: gray;
-  width: 25vw;
-  text-align: center;
-  margin-top: -4vw;
-  word-spacing: .2em;
-  line-height: 1.5vw;
-}
-
-#quote .one {
-  filter: invert(1);
-  width: 10vw;
-  height:8vw;
-  margin-top: -10vw;
-  margin-left: -40vw;
-}
-
-#quote h2{
-  font-size: 2vw;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200;
-  color: black;
-  width: 20vw;
-  text-align: center;
-  margin-top: -3vw;
-  margin-left: -40vw;
-
-}
-
-#quote .two{
   display: none;
-}
-
-.quotations {
-  position: absolute;
-  width: 11vw;
-  opacity: 0.05;
-  left: 76vw;
-  top: 13vw;
-  z-index: 1;
 }
 
 #our-blog {
   position: absolute;
-  top: 425vw;
+  top: 300vh;
   width:100%;
-  left: 17.5vw;
+  left: 0vw;
   height: auto;
 }
 
 .blogbg {
-  height: 60vw;
+  height: 50vh;
 }
 
 #articles{
@@ -3125,7 +2997,7 @@ a {
 #recent{
   display:flex;
   flex-direction: column;  
-  margin-left: 10vw;
+  margin-left: 28vw;
 
   
 }
@@ -3138,8 +3010,8 @@ a {
   font-size: 15vw;
   letter-spacing: .3em;
   transform: rotate(270deg);
-  left: -53vw;
-  top: 8vw;
+  left: -35vw;
+  top: 6vh;
     z-index:2;
 
 }
@@ -3148,38 +3020,37 @@ a {
   color: black;
   font-family: 'Raleway', sans-serif;
   letter-spacing: .05em;
-  font-size: 4vw;
+  font-size: 9vw;
   margin-top: -1.3vw;
     z-index:2;
-    margin-top: -.5vw;
+    margin-top: -.5vh;
 
 }
 
 #recent p {
   font-family: 'Raleway', sans-serif;
-  margin-top: -.5vw;
+  margin-top: -1vh;
   font-weight: bold;
   left: 25vw;
-  font-size: 1.5vw;
-  width: 35vw;
+  font-size: 2.5vw;
+  width: 65vw;
   letter-spacing: 1px;
-  color: gray;
+  color: black;
       z-index:2;
   line-height: 1.5em;
 }
 
 #recent h6 {
   font-family: 'Raleway', sans-serif;
-  margin-top: -.5vw;
+  margin-top: -.5vh;
   font-weight: bold;
   left: 25vw;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   width: 100%;
   letter-spacing: 1px;
   color: gray;
   line-height: 1.5em;
-  margin-top: .5vw;
-    z-index:2;
+  z-index:2;
 
 }
 
@@ -3194,19 +3065,19 @@ h6 a {
   opacity: .2;
   width: 100%;
   height: auto;
-  margin-top: -2vw;
+  margin-top: -1vh;
   margin-left: -27.5vw;
 }
 
 #older {
   display: flex;
   flex-direction: column;
-  width: 40vw;
-  height: 55vw;
+  width: 60vw;
+  height: 30vh;
   justify-content: space-between;
-  margin-top: 0vw;
+  margin-top: -2vh;
   z-index:2;
-    margin-left: 10vw;
+    margin-left: 30vw;
 
 }
 
@@ -3214,8 +3085,8 @@ h6 a {
   display: flex;
   flex-direction: column;
   background-color: #fbfbfb;
-  width: 40vw;
-  height: 23vw;
+  width: 60vw;
+  height: auto;
   }
 
 .date {
@@ -3227,9 +3098,9 @@ h6 a {
   font-family: 'Source Sans Pro', sans-serif;
   justify-content: space-evenly;
   width: 50%;
-  font-size: .8vw;
+  font-size: 1.8vw;
   margin-left: 1vw;
-  margin-top: 1vw;
+  margin-top: 0vh;
   font-weight: bold;
   letter-spacing: .1em;
 }
@@ -3240,15 +3111,15 @@ h6 a {
 }
 
 .top i{
-  margin-top: .8vw;
+  margin-top: .8vh;
 }
 
 .articlename {
   font-family: 'Raleway', sans-serif;
   text-transform: capitalize;
   margin-left: 1.5vw;
-  margin-top: 0vw;
-  font-size: 1.75vw;
+  margin-top: 0vh;
+  font-size: 2.75vw;
 }
 
 .articlename a {
@@ -3264,48 +3135,44 @@ h6 a {
 .preview-p {
   font-family: 'Raleway', sans-serif;
   margin-left: 1.5vw;
-  margin-top: -1vw;
-  font-size: 1vw;
+  margin-top: -1vh;
+  font-size: 2vw;
   line-height: 1.5em;
 }
 
 #weight-loss-article img {
   width: 11%;
   border-radius: 50%;
-  margin-left: 2vw;
-  margin-top: 1vw;
+  margin-left: 50vw;
+  margin-top: -2vh;
 
 }
 
 #fitness img {
   width: 11%;
-  margin-left: 2vw;
+  margin-left: 50vw;
   border-radius: 50%;
-  margin-top: 1vw;
+  margin-top: -1vh;
 
 }
 
 .author {
   font-family: 'Raleway', sans-serif;
-  margin-left: 7vw;
-  margin-top: -2.5vw;
-  font-size: 1vw;
+  margin-left: 33vw;
+  margin-top: -2.5vh;
+  font-size: 2vw;
   line-height: 1.5em;
   font-weight: bold;
 }
 
 
 .foodimage {
-  position: absolute;
-  top: 518vw;
-  width:100%;
-  height: auto;
-  left: 0;
+  display: none;
 }
 
 #footer{
   position: absolute;
-  top: 535vw;
+  top: 357vh;
   width:100%;
   display: flex;
   left: 50vw;
@@ -3325,7 +3192,7 @@ h6 a {
 }
 
 .foot-cards h4{
-  font-size: 2vw;
+  font-size: 3vw;
   margin-top: 0vw;
   text-transform: uppercase;
   color: #4E7C58;
@@ -3333,7 +3200,7 @@ h6 a {
 }
 
 #title-CR p{
-  font-size: .8vw;
+  font-size: 1.8vw;
   margin-top: 0vw;
   text-transform: uppercase;
   color: #707070;
@@ -3342,7 +3209,7 @@ h6 a {
 }
 
 .foot-cards h5{ 
-  font-size: 1.25vw;
+  font-size: 2.25vw;
   margin-top: 0vw;
   text-transform: capitalize;
   word-spacing:.1em;
@@ -3351,44 +3218,16 @@ h6 a {
 
 }
 
-.foot-cards p{ 
-  font-size: 1vw;
-  margin-top: 0vw;
-  text-transform: capitalize;
-  word-spacing:.1em;
-  line-height: 2em;
-}
-
-.foot-cards a{
-  text-decoration: none;
-  color: #707070;
-} 
-
-.foot-cards a:hover {
-  color: #4E7C58;
-}
-
-#cont-info p{
-  margin-top: -0.5vw;
-}
-
-#cont-info h5{
-  margin-bottom: 2vw;
-}
-
-  #help{
-    display: none;
-  }
 
 footer {
   display: inline-block;
   text-align: center;
   position: absolute;
-  top:550vw;
+  top:370vh;
   width:100%;
   background-color: #4e7c58;
   font-family: 'Raleway', sans-serif;
-  font-size: 1vw;
+  font-size: 2vw;
   }
 
 footer > ul {
@@ -3411,3 +3250,4 @@ footer > ul li a {
   
   
 }
+
