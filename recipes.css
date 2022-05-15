@@ -998,7 +998,7 @@ h6 a {
 .foodimage {
   position: absolute;
   top: 329vw;
-  max-width:100%;
+  width:100%;
   left: 0;
   height: auto;
 }
